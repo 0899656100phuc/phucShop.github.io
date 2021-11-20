@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+   
+  
+}
+.header{
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffff;
+    height: 46px;
+    position: fixed;
+    z-index: 1;
+}
+.container{
+    /* margin: 0px auto; */
+   
+
+}
+#nav{
+    
+    
+    margin-left: 100px;
+    
+    
+}
+#nav , .subnav{
+    list-style-type: none;
+}
+
+#nav li a{
+    padding: 0 15px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display:block ;
+    
+}
+#nav > li:hover > a{
+    color: rgb(217, 18, 31);
+   /*  background-color: #ccc; */
+}
+#nav .subnav li:hover a {
+    color: rgb(217, 18, 31);
+    /* background-color: #ccc; */
+}
+
+#nav > li{
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 13px;
+    
+}
+#nav li:hover .subnav{
+    display: inline-block;
+    
+}
+
+#nav li{
+    /* list-style: none; */
+    text-transform: uppercase;
+    padding: 0px 15px;
+    position: relative;
+    line-height: 46px;
+    
+}
+#nav .subnav{
+    display: none;
+    position: absolute;
+    background-color: rgb(230, 205, 205);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    min-width: 180px;
+    top: 100%;
+    left: 0;
+}
+
+#nav .subnav a{
+    padding: 0 12px;
+    line-height: 38px;
+}
+.search-button{
+    margin-top: -70px;
+    
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.logo img{
+    margin-top: 50px;
+}
+#header-top{
+    
+}
+
+body{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#slider{
+
+   margin-top: 150px;
+    width: 100%;
+    height: 650px;
+    
+}
+
+
+#content{
+   
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.headline{
+    text-align: center;
+    margin: 20px 0;
+    
+}
+h3{
+    
+    text-transform: uppercase;
+    font-size: 10px;
+    border-bottom: 3px solid #bebebe;
+    display: inline-block;
+}
+.menu-content{
+    
+    background-image: url(img/content1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1111px 500px;
+    height: 522px;
+    margin-left:  30px;
+    margin-top: 20px;
+}
+
+ul.products  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+ul.products  li{
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+ul.products  li img{
+    max-width: 100%;
+    height: auto;
+}
+.product-info a{
+    text-decoration: none;
+    
+}
+ul.products li .product-info a.product-name{
+    padding: 5px 0px;
+}
+.product-price{
+    color:rgb(217, 18, 31) ;
+    src:url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    padding: 4px 0px;
+}
+.product-name{
+    color: #333;
+    font-weight:400;
+    
+}
+
+.content-news{
+    
+    background-color: #F5F5F7;
+    height: 550px;
+    
+}
+ul.product-center{
+    list-style: none;
+    display: grid;
+    
+    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 33% 33% 33%;
+    /* max-width: 1170px; */
+    /* margin: 0 auto; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+}
+ul.product-center li img{
+    max-width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.news-info{
+    
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+.news-info a.news-name{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    
+}
+.news-info a.news-sub{
+    text-decoration: none;
+    color: #333;
+    
+}
+.news-bottom{
+    text-align: center;
+    
+}
+.news-bottom h4{
+    text-transform: uppercase;
+
+    display: inline-block;
+}
+.ti-angle-right{
+    font-size: 20px;
+    font-weight: 600;
+}
+#footer{
+
+}
+.mb-0 a{
+    text-decoration: none;
+}
